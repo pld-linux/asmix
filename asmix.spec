@@ -1,12 +1,13 @@
 Summary:	AfterStep sound mixer volume control
 Summary(pl):	Mixer dla AfterStepa
 Name:		asmix
-Version:	1.4
+Version:	1.5
 Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	http://www.tigr.net/afterstep/download/asmix/%{name}-%{version}.tar.gz
-# Source0-md5:	a1836666d0662f7b80774a9aaee377d4
+# Source0-md5:	de731150e2e57bf3d809b141ffdc8969
+URL:		http://www.tigr.net/afterstep/view.php?applet=asmix/data
 BuildRequires:	XFree86-devel
 BuildRequires:	libjpeg-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
