@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
 install asmix $RPM_BUILD_ROOT%{_bindir}
-install asmix.man $RPM_BUILD_ROOT/%{_mandir}/man1/asmix.1
+install asmix.man $RPM_BUILD_ROOT%{_mandir}/man1/asmix.1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
