@@ -6,7 +6,8 @@ Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	http://www.tigr.net/afterstep/download/asmix/%{name}-%{version}.tar.gz
-BuildRequires:	XFree86-libs
+BuildRequires:	XFree86-devel
+BuildRequires:	libjpeg-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -39,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES INSTALL LICENSE README
+%doc CHANGES README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
