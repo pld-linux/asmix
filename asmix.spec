@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	http://www.tigr.net/afterstep/download/asmix/%{name}-%{version}.tar.gz
+# Source0-md5:	a1836666d0662f7b80774a9aaee377d4
 BuildRequires:	XFree86-devel
 BuildRequires:	libjpeg-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
