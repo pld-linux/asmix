@@ -1,7 +1,7 @@
 Summary:	AfterStep sound mixer volume control
 Summary(pl):	Mixer dla AfterStepa
 Name:		asmix
-Version:	1.3
+Version:	1.4
 Release:	1
 License:	GPL
 Group:		Applications/Sound
