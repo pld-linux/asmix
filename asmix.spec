@@ -1,5 +1,5 @@
 Summary:	AfterStep sound mixer volume control
-Summary(pl.UTF-8):   Mixer dla AfterStepa
+Summary(pl.UTF-8):	Mixer dla AfterStepa
 Name:		asmix
 Version:	1.5
 Release:	1
