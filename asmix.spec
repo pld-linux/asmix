@@ -1,5 +1,5 @@
 Summary:	AfterStep sound mixer volume control
-Summary(pl):	Mixer dla AfterStepa
+Summary(pl.UTF-8):   Mixer dla AfterStepa
 Name:		asmix
 Version:	1.5
 Release:	1
@@ -18,10 +18,10 @@ plate if you use -shape option. The volume knob adjusts the master
 volume of your sound card. Just grab the knob with the left button of
 your mouse and drag it around.
 
-%description -l pl
-Kolejny regulator g³o¶no¶ci. Prosty w obs³udze. Przyjemny wygl±d. Du¿±
-ga³k± regulujemy poziom sumy. Wygl±da równie dobrze pod AfterStepem
-jak pod innymi zarz±dcami okien.
+%description -l pl.UTF-8
+Kolejny regulator gÅ‚oÅ›noÅ›ci. Prosty w obsÅ‚udze. Przyjemny wyglÄ…d. DuÅ¼Ä…
+gaÅ‚kÄ… regulujemy poziom sumy. WyglÄ…da rÃ³wnie dobrze pod AfterStepem
+jak pod innymi zarzÄ…dcami okien.
 
 %prep
 %setup -q
